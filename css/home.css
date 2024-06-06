@@ -8,8 +8,10 @@
         .header {
             background-color: #333;
             color: #fff;
-            padding: 20px;
+            width: 90%;
+            height: 100px;
             text-align: center;
+            position:absolute;
         }
         .container {
             display: flex;
@@ -21,7 +23,7 @@
             padding: 20px;
             text-align: center;
             height: 100%; /* Mantém a altura do menu */
-            display: flex;
+            
             flex-direction: column;
             justify-content: flex-start; /* Ajusta para o topo */
         }
@@ -32,8 +34,14 @@
             object-fit: cover;
             margin-bottom: 20px;
         }
-        .#avatar{
-            align-items: top;
+        #avatar{
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100px;
+            width: 10%;
+            border-color: cadetblue;
+            border: 2px;
             
         }
         .dashboard {
